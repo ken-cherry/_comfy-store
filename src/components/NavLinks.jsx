@@ -16,13 +16,11 @@ const NavLinks = () => {
       {links.map((link) => {
         const { id, url, text } = link;
         return (
-          <>
-            <li key={id}>
-              <NavLink to={url} className="capitalize">
-                {text}
-              </NavLink>
-            </li>
-          </>
+          <li key={id}>
+            <NavLink to={url} className="capitalize">
+              {text}
+            </NavLink>
+          </li>
         );
       })}
     </>
