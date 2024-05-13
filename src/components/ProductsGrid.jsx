@@ -6,7 +6,7 @@ const ProductsGrid = () => {
 
   console.log(products);
 
-  return <div>ProductsGrid</div>;
+  return <h2>ProductsGrid</h2>;
 };
 
 export default ProductsGrid;
